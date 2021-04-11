@@ -1,0 +1,114 @@
+<style>
+
+ 
+
+div.multiselect, select#meal, button {
+  margin: 5px;
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+.wrapper{
+width:200px;
+padding:20px;
+height: 150px;
+}
+
+.example {
+    overflow-y:auto;
+   height:auto;
+   max-height:150px;
+   width:200px;
+   background:white;
+}
+.example::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.example::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.example::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.example::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+/* Color for select */
+.CSE {
+  background-color:#b8999c;
+  color: "#b8999c";
+  padding: 10px;
+}
+
+.MECH {
+  background-color:#d1e04c;
+  color: "#b8999c";
+  padding: 10px;
+}
+
+.CIVIL {
+  background-color:#5c5233;
+  color: "#b8999c";
+  padding: 10px;
+}
+
+.EEE {
+  background-color:#ad5233;
+  color: "#b8999c";
+  padding: 10px;
+}
+
+.ECE {
+  background-color:#14eb66;
+  color: "#b8999c";
+  padding: 10px;
+}
+
+.IT {
+  background-color:#a3e8ff;
+  color: "#b89z";
+  padding: 10px;
+}
+</style>

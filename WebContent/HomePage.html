@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Attendence Management System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="StudentStyle.css"></link>
+   <script type="text/javascript" src="StudentSubject.js"></script>
+  <script type="text/javascript" src="StudentRollNo.js"></script>
+  <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: #996680;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	 background-color: 	 #29293d;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+	background-color: black;
+	
+ }
+.dropdown-menu{
+     margin-top: 0;
+  }
+  </style>
+  
+    <script>
+<script language="JavaScript">
+  javascript:window.history.forward(1);
+</script>
+  </head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"><div class="text-danger"> STUDENT MANAGEMENT SYSTEM </div></a>
+    </div>
+	 <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+     <li class="nav-item active">
+        <a class="nav-link" style="color:red"  href="HomePage.html">Home</a>
+    </li>
+    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+	  <a class="nav-link" href="RegisterPage.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+	  </li>
+      <li class="nav-item">
+	  <a class="nav-link" href="IndexPage.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="container-fluid">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+	<!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Images\Jntuk.jpg" alt="Jntuk-logo"  style="width:800px; height:600px;">
+		<a href="https://www.jntuk.edu.in/"> <button class="btn">Click here to Go JNTUK Website</button></a>
+      </div>
+
+      <div class="item">
+        <img src="Images\College-logo2.jpg" alt="College Logo"  style="width:800px; height:600px;"">
+		<a href="https://www.sircrrengg.ac.in/"> <button class="btn">Click here to Go College Website</button></a>
+      </div>
+    
+      <div class="item">
+       <img src="Images\corona.jpg" alt="Library Logo"  style="width:800px; height:600px;">
+	   <a href="https://www.jntuk.edu.in/"> <button class="btn">Click here to see Corona Updates</button></a>
+      </div>
+    </div>
+    </div>
+	
+   
+  </div>
+  </div>
+  </div>
+<br>
+
+
+<div class="row">
+  <div class="column">
+    <h2 style="font-size:2vw;text-align:center;color:red"><strong>About College</strong></h2>
+    <p style="font-size:1vw;color:white;padding:10px">
+	<strong>  Sir C.R.Reddy College of Engineering </strong>is the first Engineering College in Andhra Pradesh sanctioned and recognized by All India Council for Technical Education (AICTE). This College is permanently <strong>affiliated to JNTUK </strong>from the Academic Year 2017-18.
+	The last two and a half decades has seen the Institute fulfilling its motto of <strong>'QUALITY SERVICE & VALUE BASED EDUCATION'</strong> to the student community.
+	The College is located in its own sprawling campus with an area of 30.48 acres. Its magnanimous infrastructure and greenery attracts the attention of people who pass by. The vast green campus housing several Departments provides a stimulating environment to the high caliber staff and students of the institution.
+	The Campus at Vatluru is a place where students from all walks of life are under a single umbrella pursuing their BE/B.Tech, M.Tech, MCA and MBA courses.</p>
+</div>
+  <div class="column">
+ <video width="400px" height="400px" poster="Images\College-logo.jpg" controls>
+  <source src="Vedios\SIR C.R REDDY COLLEGE OF ENGINEERING VIRTUAL TOUR.mp4" type="video/mp4">
+  <source src="Vedios\SIR C.R REDDY COLLEGE OF ENGINEERING VIRTUAL TOUR.mp4"type="video/ogg">
+  </div>
+</div>
+</body>
+</html>
